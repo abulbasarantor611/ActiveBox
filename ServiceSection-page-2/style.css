@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Cardo', serif;  */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul li{
+    list-style-type: none;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/* .............Service Section............  */
+.service-section{
+    padding: 120px 0;
+}
+.service-section .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 68px;
+   
+    
+}
+.service-section .container .service-item{
+    max-width: 30%;
+    text-align: center;
+    padding: 0 26px;
+}
+.service-section .container .service-item img{
+    width: 100%;
+}
+.service-section .container .service-item h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px; 
+    text-transform: uppercase;
+    font-weight: 700; 
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.service-section .container .service-item p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    
+    color: rgb(71, 74, 78);
+}
+
+
+
+
+/* ============Responsive============= */
+
+
+
+@media screen and (max-width:969px){
+  
+   /* .............Service Section............  */
+   .service-section .container .service-item{
+       max-width: 47.5%;
+   }
+   .service-section {
+       padding: 100px 0;
+   }
+}
+
+@media screen and (max-width:768px){
+
+   /* .............Service Section............ */
+   .service-section .container {
+       row-gap: 55px;
+   }
+   .service-section {
+       padding: 85px 0;
+   }
+   .service-section .container .service-item p{
+      padding: 0;
+   }
+}   
+
+@media screen and (max-width:574px){
+
+   /* .............Service Section............ */
+   .service-section .container .service-item{
+       max-width: 100%;
+       padding: 0 80px;
+   }
+   .service-section {
+       padding: 60px 0;
+   }
+   .service-section .container .service-item img{
+       width: 80%;
+   }
+}
+
+@media screen and (max-width:471px){
+
+   /* .............Service Section............ */
+   .service-section {
+       padding: 50px 0;
+   }
+   .service-section .container .service-item h3 {
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+   .service-section .container {
+       row-gap: 40px;
+   }
+   .service-section .container .service-item {
+       padding: 0 60px;
+   }
+}
+
+@media screen and (max-width:468px){
+   
+   /* .............Service Section............ */
+   
+   .service-section .container .service-item{
+       padding: 0 40px;
+   }
+}
+
+@media screen and (max-width:431px){
+   
+    /* .............Service Section............ */
+   .service-section .container .service-item {
+       padding: 0px;
+   }
+}
+
+
+
+@media screen and (max-width:375px){
+
+   /* .............Service Section............  */
+   .service-section .container .service-item {
+       padding: 0px;
+   }
+   
+}
+
+@media screen and (max-width:364px){
+  
+    /* .............Service Section............ */
+    .service-section .container .service-item p {
+       font-size: 13px;
+   }
+   .service-section {
+       padding: 30px 0;
+   }
+   .service-section .container {
+       row-gap: 30px;
+   }
+   
+}
+
+
