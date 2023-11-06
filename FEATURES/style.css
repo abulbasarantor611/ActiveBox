@@ -45,7 +45,7 @@ ul li{
     display: flex;
 }
 .header-menu .menu li a:hover{
-    color: rgb(52, 235, 28);
+    color: #c42c2c;
     cursor: pointer;
     scale: 1.05;
 }
@@ -101,7 +101,7 @@ ul li{
 }
 .banner-section .container a{
     font-size: 13px;
-    background-color: red;
+    background-color: #BA3737;
     font-family: 'Raleway', sans-serif;
     padding: 20px 45px;
     color: #fff;
@@ -113,10 +113,117 @@ ul li{
 }
 
 
+/* ............Address Section..............  */
+.address-section{
+    background-color: #3A3E64;
+    
+}
+.address-section .container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.location{
+    width: 30%;
+}
+
+.location h3{
+    font-family:'Raleway', sans-serif ;  
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.location p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9698AC;
+    margin-top: 10px;
+    padding: 0 87px;
+}
+.social-account{
+    display: flex;
+    column-gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.share{
+    width: 30%;
+}
+.share h3{
+    font-family:'Raleway', sans-serif ;  
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.share .social-account a{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #e8ecee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.share .social-account a i{
+    color: #fff;
+}
+.about{
+    width: 30%;
+}
+
+.about h3{
+    font-family:'Raleway', sans-serif ;  
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.about p{
+    font-family:'Raleway', sans-serif ;  
+    font-weight: 400;
+    font-size: 14px;
+    color: #9698AC;
+    margin-top: 10px;
+    
+}
 
 
+/* .............Footer Section.................  */
+.footer-section{
+    background-color: #313454;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.footer-section .footer-text-item p{
+    color: #808080;
+    font-family:'Raleway', sans-serif ; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
 
-/* ============Responsive============= */
+}
+.footer-section .footer-text-item i{
+    color: #ff0000;
+}
+.footer-section .footer-text-item a{
+    color:#E4E4E8;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+
+/* ============Responsive(Header + Banner)============= */
 
 
 @media screen and (max-width:1200px){
@@ -393,5 +500,285 @@ ul li{
    .banner-section .container h1 {
        font-size: 18px;
        line-height: 23px;
+   }
+}
+
+
+
+/* ============Responsive(Address + Footer)============= */
+
+
+
+@media screen and (max-width:1200px){
+    /* .............Footer Section................. */
+    .footer-section {
+       padding-left: 430px;
+       padding-right: 430px;
+   }
+}
+
+@media screen and (max-width:1147px){
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 400px;
+       padding-right: 400px;
+   }
+}
+
+@media screen and (max-width:1087px){
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 365px;
+       padding-right: 365px;
+   }
+  
+   /* ............Address Section.............. */
+   .location p {
+       padding: 0 84px;
+   }
+}
+
+@media screen and (max-width:1019px){
+ 
+   /* ............Address Section.............. */
+   .location p {
+       padding: 0 60px;
+   }
+   /* .............Footer Section................ */
+   .footer-section {
+       padding-left: 312px;
+       padding-right: 312px;
+   }
+}
+
+@media screen and (max-width:969px){
+  
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 325px;
+       padding-right: 325px;
+   }
+}
+
+@media screen and (max-width:937px){
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 310px;
+       padding-right: 310px;
+   }
+}
+
+@media screen and (max-width:907px){
+   /* ............Address Section.............. */
+   .location p {
+       padding: 0 50px;
+   }
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 280px;
+       padding-right: 280px;
+   }
+}
+
+
+@media screen and (max-width:847px){
+   /* .............Footer Section................ */
+   .footer-section {
+       padding-left: 250px;
+       padding-right: 250px;
+   }
+}
+
+@media screen and (max-width:818px){
+  
+   /* ............Address Section............. */
+   .location p {
+       padding: 0px 40px;
+   }
+}
+
+@media screen and (max-width:787px){
+   /* ............Address Section............. */
+   .location p {
+       padding: 0px 35px;
+   }
+    /* .............Footer Section................ */
+    .footer-section {
+       padding-left: 220px;
+       padding-right: 220px;
+   }
+}
+
+@media screen and (max-width:768px){
+  
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 225px;
+       padding-right: 225px;
+   }
+}   
+
+@media screen and (max-width:737px){
+   /* ............Address Section............. */
+   .location p {
+       padding: 0px 25px;
+   }
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 195px;
+       padding-right: 195px;
+   }
+}
+
+
+@media screen and (max-width:677px){
+   /* ............Address Section............. */
+   .location p {
+       padding: 0px 10px;
+   }
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 165px;
+       padding-right: 165px;
+   }
+}
+
+
+@media screen and (max-width:617px){
+  
+   /* ............Address Section............. */
+   .location p {
+       padding: 0px;
+   }
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 135px;
+       padding-right: 135px;
+   }
+}
+
+
+
+@media screen and (max-width:574px){
+  
+    /* ............Address Section..............  */
+    .address-section .container {
+       padding-top: 66px;
+       padding-bottom: 66px;
+       row-gap: 40px;
+   }
+
+   .location{
+       width: 100%;
+   }
+   .share{
+       width: 100%;
+   }
+   .about p {
+       padding: 0px 100px;
+   }
+   .about{
+       width: 100%;
+   }
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 115px;
+       padding-right: 115px;
+   }
+   
+}
+
+@media screen and (max-width:517px){
+   /* ............Address Section............. */
+   
+   .about p {
+       padding: 0px 60px;
+   }
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 85px;
+       padding-right: 85px;
+   }
+   
+}
+
+
+@media screen and (max-width:468px){
+   
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 78px;
+       padding-right: 78px;
+   }
+}
+
+@media screen and (max-width:443px){
+    /* ............Address Section..............  */
+   .about p {
+       padding: 0px 40px;
+   }
+    /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 50px;
+       padding-right: 50px;
+   }
+}
+
+
+@media screen and (max-width:387px){
+   /* ............Address Section..............  */
+   .about p {
+       padding: 0px;
+   }
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+}
+
+@media screen and (max-width:375px){
+  
+    /* ............Address Section.............. */
+    .address-section .container {
+       padding-top: 35px;
+       padding-bottom: 35px;
+       row-gap: 30px;
+   }
+   /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 15px;
+       padding-right: 15px;
+   }
+
+}
+
+@media screen and (max-width:320px){
+  
+    /* ............Address Section.............. */
+    .location p {
+       font-size: 13px;
+   }
+   .about p {
+       font-size: 13px;
+   }
+    /* .............Footer Section................. */
+    .footer-section {
+       padding-left: 10px;
+       padding-right: 10px;
+   }
+   .footer-section .footer-text-item p {
+       font-size: 12px;
+       line-height: 17px;
+   }
+   
+}
+
+@media screen and (max-width:297px){
+  
+    /* .............Footer Section................. */
+   .footer-section {
+       padding-left: 3px;
+       padding-right: 3px;
    }
 }

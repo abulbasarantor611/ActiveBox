@@ -32,7 +32,7 @@ ul li{
     z-index: 9999;
 }
 .header-section .container{
-    height: 100px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +45,7 @@ ul li{
     display: flex;
 }
 .header-menu .menu li a:hover{
-    color: rgb(52, 235, 28);
+    color: #c42c2c;
     cursor: pointer;
     scale: 1.05;
 }
@@ -101,7 +101,7 @@ ul li{
 }
 .banner-section .container a{
     font-size: 13px;
-    background-color: red;
+    background-color: #BA3737;
     font-family: 'Raleway', sans-serif;
     padding: 20px 45px;
     color: #fff;
@@ -337,7 +337,7 @@ ul li{
 }
 .download-section .container a{
     border-radius: 1px;
-    background-color: #E84545;
+    background-color: #BA3737;
     padding: 18px 80px;
     font-family:'Raleway', sans-serif ;  
     font-weight: 600;
@@ -445,7 +445,7 @@ ul li{
 
 }
 .footer-section .footer-text-item i{
-    color: red;
+    color: #ff0000;
 }
 .footer-section .footer-text-item a{
     color:#E4E4E8;
@@ -1046,10 +1046,8 @@ ul li{
 }
 
 @media screen and (max-width:387px){
-    /* ............Address Section..............  */
-    .about p {
-        padding: 0px;
-    }
+
+  
     /* .............Footer Section................. */
     .footer-section {
         padding-left: 20px;
