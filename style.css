@@ -72,7 +72,7 @@ ul li{
 
 /* ...............Banner Section.................  */
 .banner-section{
-    background-image: url(./../image-2/background.png);
+    background-image: url(./image-1/background.png);
     background-size:cover ;
     background-repeat: no-repeat;
     padding-top: 260px;
